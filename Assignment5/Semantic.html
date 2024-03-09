@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements</title>
+    <style>
+        body{
+            margin: 5px;
+            padding: 0;
+        }
+        header{
+            display: flex;
+            background-color: gray;
+            height: 20vh;
+            justify-content: center;
+            align-items: center;
+            color: white;
+              }
+        nav{
+            float: left;
+            background-color: rgb(217, 209, 209);
+            height: 35vh;
+            width: 25vw;
+            color: blue;
+        }
+        article{
+                display: flex;
+                flex-direction: column;
+                width: 70vw;
+                height: 35vh;
+                padding-left: 5px;
+                overflow: hidden;
+                
+                
+        }
+        footer{
+           display: flex;
+           background-color: gray;
+           height: 8vh;
+           justify-content: center;
+           align-items: center;
+           color: white;
+            }
+           ul{
+            list-style: none;
+            padding-left: 15px;
+           }
+           
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MERNSTACK</h1>
+    </header>
+    <nav><ul>
+        <li><a><u>HTML</u></a></li>
+        <li><a><u>MangoDB</u></a></li>
+        <li><a><u>ExpressJS</u></a></li>
+    </ul></nav>
+    <article>
+        
+        <h3>HTML</h3>
+        <p>
+            HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is combination of HyperText and Markup language.
+            HyperText defines the link between web pages. A Markup language is used to define the text document within the tag which defines the stucture of web pages. This language is used to annotate(make notes for the computer)text so that a machine can understand it and manipulate text accordingly.
+            MOst markup languages(e.g. HTML) are human-readable. The language uses tags to define what manipulation has to be done on the text. 
+        </p>
+        <p>
+            HTML is markup language is used by the browser to manipulate text, images, and other content, in order to display it in the required format. HTML 
+            was created by Tim Berners-Lee in 1991. The first-ever version of HTML was HTML 1.0, but the first standerd version was HTML 2.0, published in 1995.
+        </p>
+    </article>
+    <footer>
+        www.entriapp.com
+    </footer>
+</body>
+</html>
